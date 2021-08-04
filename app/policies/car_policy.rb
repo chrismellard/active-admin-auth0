@@ -1,13 +1,6 @@
-class ApplicationPolicy
-  attr_reader :user, :record
-
-  def initialize(user, record)
-    @user = user
-    @record = record
-  end
+class CarPolicy < ApplicationPolicy
 
   def index?
-    # @user.nickname = 'chrismellard'
     true
   end
 
@@ -16,7 +9,7 @@ class ApplicationPolicy
   end
 
   def create?
-    @user.nickname = 'chrismellardddd'
+    @user.nickname == 'chrismellard'
   end
 
   def new?
