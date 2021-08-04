@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'car/new'
+  get 'car/create'
   get 'greetings/hello'
   get 'greetings/goodbye'
   root 'home#show'
