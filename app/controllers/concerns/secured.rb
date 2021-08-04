@@ -9,7 +9,7 @@ module Secured
     redirect_to '/auth/redirect/' unless session[:userinfo].present?
   end
 
-  def current_user
+  def potato
     session[:userinfo]
   end
 end
