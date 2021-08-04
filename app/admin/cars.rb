@@ -14,9 +14,9 @@ ActiveAdmin.register Car do
   #   permitted << :other if params[:action] == 'create' && current_user.admin?
   #   permitted
   # end
-  form do |f|
-    f.semantic_errors # shows errors on :base
-    f.inputs          # builds an input field for every attribute
-    f.actions         # adds the 'Submit' and 'Cancel' buttons
-  end
+  # form do |f|
+  #   f.semantic_errors # shows errors on :base
+  #   f.inputs          # builds an input field for every attribute
+  #   f.actions         # adds the 'Submit' and 'Cancel' buttons
+  # end
 end
