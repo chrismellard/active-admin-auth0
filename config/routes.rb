@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  ActiveAdmin.routes(self)
   get 'car/new'
   get 'car/create'
   get 'greetings/hello'
