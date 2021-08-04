@@ -31,6 +31,8 @@
             <li class="<%= 'active' if params[:controller] == 'dashboard' %>"><a href="/dashboard">My Dashboard</a></li>
             <li ><a href="/greetings/hello">Hello</a></li>
             <li ><a href="/greetings/goodbye">Goodbye</a></li>
+            <li ><a href="/car/new">car new</a></li>
+            <li ><a href="/car/create">car create</a></li>
           </ul>
           <% if session[:userinfo] %>
             <ul class="nav navbar-nav navbar-right">
