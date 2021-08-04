@@ -1,0 +1,7 @@
+.env
+tmp/
+log/
+db/development.sqlite3
+.bundle
+vendor/bundle
+.idea/
